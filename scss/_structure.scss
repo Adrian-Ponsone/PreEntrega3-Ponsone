@@ -1,0 +1,26 @@
+$principalColor: gray;
+$display: flex;
+$justify: center;
+$align: center;
+$marginB: 20px;
+
+body{
+    background-color: $principalColor;
+}
+
+.verticalAlign{
+    display: $display;
+    justify-content: $justify;
+    align-content: $align;
+    margin-bottom: $marginB;
+}
+
+.background_image{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+.navigation_bar{
+    border: 1px solid black;
+}
